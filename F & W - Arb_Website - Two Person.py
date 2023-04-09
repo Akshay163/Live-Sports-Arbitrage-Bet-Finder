@@ -27,6 +27,7 @@ class ArbFinder(object):
             self.driver.implicitly_wait(5)
             self.driver.get(URL)
         except:
+            # print("Madarchod ko code nahi aata hai kya?")
             pass
         self.sport = 'Tennis'
 
